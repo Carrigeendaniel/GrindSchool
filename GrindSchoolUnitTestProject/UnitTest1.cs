@@ -7,10 +7,27 @@ namespace GrindSchoolUnitTestProject
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void AddGrind()
         {
-            //Test.Mon.02.10.2017
-            //
+
+        }
+
+        [TestMethod]
+        public void AddTeacher()
+        {
+            
+        }
+
+        [TestMethod]
+        public void AddStudent()
+        {
+
+        }
+
+        [TestMethod]
+        public void BookGrind()
+        {
+
         }
     }
 }
