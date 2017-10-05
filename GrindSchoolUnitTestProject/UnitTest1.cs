@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 
 namespace GrindSchoolUnitTestProject
 {
@@ -12,13 +13,18 @@ namespace GrindSchoolUnitTestProject
             //Assertions
             //Create a new grind object 
             //myGrind = new Grind();
+            Grind newGrind = new Grind();
             //Add Grind
-            //Add the Gring to the list
+            newGrind.Add("Maths");
+            //Add the Grind to the list
             //MyGrinid.AddToList()
-
+            List<Grind> grinds = new List<Grind>();
+            grinds.Add(newGrind);
             //get a list of all the grinds
+
             //check that the new grind is in the list
             //Assert
+            //Assert.IsTrue();
         }
 
         [TestMethod]
