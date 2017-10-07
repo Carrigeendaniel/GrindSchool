@@ -31,12 +31,14 @@ namespace GrindSchoolUnitTestProject
         public void TestAddTeacher()
         {
             //Create new Teachers List
-
+            //Teacher newTeacher = new Teacher();
             //Add new Teacher to the List
-
+            //List<Teacher> teachers = new List<Teacher>();
+            //teachers.Add(newTeacher);
             //get a List of all the teachers
 
             //Check that the new teacher is in the list.
+            Assert.IsTrue(teachers.Any(p => p.Name == "Teachername"));//
         }
 
         [TestMethod]
