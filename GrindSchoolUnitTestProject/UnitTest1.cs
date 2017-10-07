@@ -28,19 +28,25 @@ namespace GrindSchoolUnitTestProject
         }
 
         [TestMethod]
-        public void AddTeacher()
+        public void TestAddTeacher()
         {
-            
+            //Create new Teachers List
+
+            //Add new Teacher to the List
+
+            //get a List of all the teachers
+
+            //Check that the new teacher is in the list.
         }
 
         [TestMethod]
-        public void AddStudent()
+        public void TestAddStudent()
         {
 
         }
 
         [TestMethod]
-        public void BookGrind()
+        public void TestBookGrind()
         {
 
         }
